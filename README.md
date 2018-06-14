@@ -36,31 +36,6 @@ The following are developer notes on how to build Gents on your native platform.
 - [Unix Build Notes](build-unix.md)
 - [Gitian Building Guide](gitian-building.md)
 
-Development
----------------------
-The Gents repo's [root README](https://github.com/gentsproject/Gents/blob/master/README.md) contains relevant information on the development process and automated testing.
-
-- [Developer Notes](developer-notes.md)
-- [Multiwallet Qt Development](multiwallet-qt.md)
-- [Release Notes](release-notes.md)
-- [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/) ***TODO***
-- [Translation Process](translation_process.md)
-- [Unit Tests](unit-tests.md)
-- [Unauthenticated REST Interface](REST-interface.md)
-- [Dnsseed Policy](dnsseed-policy.md)
-
-### Resources
-
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Gents](http://forum.gents.org/) forum.
-* Join the [Gents-Dev](https://gents-dev.slack.com/) Slack group ([Sign-Up](https://gents-dev.herokuapp.com/)).
-
-### Miscellaneous
-- [Assets Attribution](assets-attribution.md)
-- [Files](files.md)
-- [Tor Support](tor.md)
-- [Init Scripts (systemd/upstart/openrc)](init.md)
-
 License
 ---------------------
 Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
