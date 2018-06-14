@@ -1,3 +1,3 @@
-Gents Core integration/staging repository
+Gents Core repository
 =====================================
 
