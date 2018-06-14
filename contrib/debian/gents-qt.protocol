@@ -1,0 +1,11 @@
+[Protocol]
+exec=gents-qt '%u'
+protocol=gents
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

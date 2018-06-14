@@ -1,0 +1,26 @@
+# /etc/conf.d/gentsd: config file for /etc/init.d/gentsd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/gents/gents.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/gentsd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/gentsd.pid"
+
+# Where to write gentsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/gentsd"
+
+# User and group to own gentsd process
+#BITCOIND_USER="gents"
+#BITCOIND_GROUP="gents"
+
+# Path to gentsd executable
+#BITCOIND_BIN="/usr/bin/gentsd"
+
+# Nice value to run gentsd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

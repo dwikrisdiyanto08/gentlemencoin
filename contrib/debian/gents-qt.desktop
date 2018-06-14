@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gents
+Comment=Gents P2P Cryptocurrency
+Comment[fr]=Gents, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Gents, eşten eşe kriptografik sanal para birimi
+Exec=gents-qt %u
+Terminal=false
+Type=Application
+Icon=gents128
+MimeType=x-scheme-handler/gents;
+Categories=Office;Finance;

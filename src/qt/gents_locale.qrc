@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/gents_bg.qm</file>
+        <file alias="ca">locale/gents_ca.qm</file>
+        <file alias="cs">locale/gents_cs.qm</file>
+        <file alias="da">locale/gents_da.qm</file>
+        <file alias="de">locale/gents_de.qm</file>
+        <file alias="en">locale/gents_en.qm</file>
+        <file alias="en_US">locale/gents_en_US.qm</file>
+        <file alias="es">locale/gents_es.qm</file>
+        <file alias="fi">locale/gents_fi.qm</file>
+        <file alias="fr_FR">locale/gents_fr_FR.qm</file>
+        <file alias="hr">locale/gents_hr.qm</file>
+        <file alias="it">locale/gents_it.qm</file>
+        <file alias="ja">locale/gents_ja.qm</file>
+        <file alias="ko_KR">locale/gents_ko_KR.qm</file>
+        <file alias="nl">locale/gents_nl.qm</file>
+        <file alias="pl">locale/gents_pl.qm</file>
+        <file alias="pt">locale/gents_pt.qm</file>
+        <file alias="pt_BR">locale/gents_pt_BR.qm</file>
+        <file alias="ro_RO">locale/gents_ro_RO.qm</file>
+        <file alias="ru">locale/gents_ru.qm</file>
+        <file alias="sk">locale/gents_sk.qm</file>
+        <file alias="sv">locale/gents_sv.qm</file>
+        <file alias="tr">locale/gents_tr.qm</file>
+        <file alias="uk">locale/gents_uk.qm</file>
+        <file alias="zh_CN">locale/gents_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gents_zh_TW.qm</file>
+    </qresource>
+</RCC>
