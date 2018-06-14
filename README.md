@@ -1,52 +1,68 @@
 Gents Core
+=====================
 
 Setup
-Gents Core is the original Gents client and it builds the backbone of the network. However, it downloads and stores the entire history of Gents transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+---------------------
+[Gents Core](http://gentlemencoin.com) is the original Gents client and it builds the backbone of the network. However, it downloads and stores the entire history of Gents transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
+---------------------
 The following are some helpful notes on how to run Gents on your native platform.
 
-Unix
+### Unix
+
 Unpack the files into a directory and run:
 
-bin/32/gents-qt (GUI, 32-bit) or bin/32/gentsd (headless, 32-bit)
-bin/64/gents-qt (GUI, 64-bit) or bin/64/gentsd (headless, 64-bit)
+- bin/32/gents-qt (GUI, 32-bit) or bin/32/gentsd (headless, 32-bit)
+- bin/64/gents-qt (GUI, 64-bit) or bin/64/gentsd (headless, 64-bit)
 
-Windows
+### Windows
+
 Unpack the files into a directory, and then run gents-qt.exe.
 
-OSX
+### OSX
+
 Drag Gents-Qt to your applications folder, and then run Gents-Qt.
 
-Need Help?
-Ask for help on BitcoinTalk or on the Gents Forum on discord.
+### Need Help?
+
+* Ask for help on [BitcoinTalk] or on the [Discord](https://discord.gg/8xnKsYX).
 
 Building
+---------------------
 The following are developer notes on how to build Gents on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-OSX Build Notes
-Unix Build Notes
-Gitian Building Guide
-Development
-The Gents repo's root README contains relevant information on the development process and automated testing.
+- [OSX Build Notes](build-osx.md)
+- [Unix Build Notes](build-unix.md)
+- [Gitian Building Guide](gitian-building.md)
 
-Developer Notes
-Multiwallet Qt Development
-Release Notes
-Release Process
-Source Code Documentation (External Link) TODO
-Translation Process
-Unit Tests
-Unauthenticated REST Interface
-Dnsseed Policy
-Resources
-Discuss on the BitcoinTalk or the Gents forum.
-Join the Gents-Dev Slack group (Sign-Up).
-Miscellaneous
-Assets Attribution
-Files
-Tor Support
-Init Scripts (systemd/upstart/openrc)
+Development
+---------------------
+The Gents repo's [root README](https://github.com/gentsproject/Gents/blob/master/README.md) contains relevant information on the development process and automated testing.
+
+- [Developer Notes](developer-notes.md)
+- [Multiwallet Qt Development](multiwallet-qt.md)
+- [Release Notes](release-notes.md)
+- [Release Process](release-process.md)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/) ***TODO***
+- [Translation Process](translation_process.md)
+- [Unit Tests](unit-tests.md)
+- [Unauthenticated REST Interface](REST-interface.md)
+- [Dnsseed Policy](dnsseed-policy.md)
+
+### Resources
+
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Gents](http://forum.gents.org/) forum.
+* Join the [Gents-Dev](https://gents-dev.slack.com/) Slack group ([Sign-Up](https://gents-dev.herokuapp.com/)).
+
+### Miscellaneous
+- [Assets Attribution](assets-attribution.md)
+- [Files](files.md)
+- [Tor Support](tor.md)
+- [Init Scripts (systemd/upstart/openrc)](init.md)
 
 License
-Distributed under the MIT/X11 software license. This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. This product includes cryptographic software written by Eric Young (eay@cryptsoft.com), and UPnP software written by Thomas Bernard.
+---------------------
+Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
+cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.
